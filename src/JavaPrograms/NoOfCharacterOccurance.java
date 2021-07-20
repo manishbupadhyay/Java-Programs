@@ -2,8 +2,8 @@ package JavaPrograms;
 
 public class NoOfCharacterOccurance {
 	static final int maxChar=256;
-	
-	// using Array
+	// I've done this program with 2 method. 1st is using array and 2nd is using string library.
+	//1. using Array
 	static void getOccurringChar(String str) {
 		// creating an array of size 256
         int count[] = new int[maxChar];
@@ -36,7 +36,7 @@ public class NoOfCharacterOccurance {
         //String str = "Maish Upadhyay";
         //getOccurringChar(str);
         
-    	// using string library
+    	//2. using string library
         String input = "Manish Upadhyay";
         char search = 'a';
         int count =0;
